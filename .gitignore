@@ -1,0 +1,20 @@
+# 运行期数据：含本机路径，不进仓库
+config.json
+manifest.json
+agentmover.log
+report.html
+preview-report.png
+
+# 编译产物（exe 单独提交了一份，其余忽略）
+dist/
+*.exe
+!agentmover.exe
+*.exe~
+*.bak
+_help.txt
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
